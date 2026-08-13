@@ -1,4 +1,5 @@
 public class Employee extends Person {
+
     private String accessLevel;
     private double salary;
     private int departmentId;

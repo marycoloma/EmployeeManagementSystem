@@ -1,10 +1,15 @@
 public abstract class Person {
+
     private int personId;
     private String name;
     private int age;
 
     public int getId() {
         return personId;
+    }
+
+    public void setId(int personId) {
+        this.personId = personId;
     }
 
     public String getName() {
